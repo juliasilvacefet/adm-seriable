@@ -29,7 +29,7 @@ const Header = () => {
                     <div className="flex">
                     
                     <div>
-                        <IoIosLogOut onClick={handleSignout} />
+                        <IoIosLogOut size={40} onClick={handleSignout} />
                     </div>
                     </div>
                 </nav>

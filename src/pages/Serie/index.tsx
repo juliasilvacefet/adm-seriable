@@ -76,6 +76,7 @@ const Serie = () => {
                 series.map((item) => (
                   <tr key={item.id}>
                     <td>{item.nome}</td>
+                    {console.log(item)}
                     <td>{item.genero?.nome}</td>
                     <td>{item.plataforma}</td>
                     <td>{item.descricao}</td>
