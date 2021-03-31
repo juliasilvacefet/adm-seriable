@@ -29,7 +29,7 @@ export default function Home() {
         await signIn(data);
         toast.success("Login realizado com sucesso!");
       } catch (error) {
-        toast.error(`Falha no Login! ${error.response.data}`);
+        toast.error(`Falha no Login!  ${error}`);
       }
     },
     [signIn]
